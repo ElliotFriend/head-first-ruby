@@ -36,4 +36,9 @@ class Truck < Vehicle
 end
 
 class Motorcicle < Vehicle
+
+  def steer
+    puts "Turn front wheel."
+  end
+
 end
